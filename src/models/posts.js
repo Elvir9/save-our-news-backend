@@ -1,8 +1,9 @@
-module.exports = () => {
+const Posts = () => {
   const posts = {
-    title1: 1,
-    title2: 2,
-    title3: 3,
+    author: String,
+    title: String,
+    content: String,
+    description: String,
   };
   return posts;
 };

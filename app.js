@@ -1,5 +1,4 @@
 const express = require('express');
-const postsRoute = require('./src/routes/writePostsInFile');
 const app = express();
 const cors = require('cors');
 const routes = require('./src/routes');
