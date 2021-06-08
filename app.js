@@ -2,7 +2,7 @@ const express = require('express');
 const postsRoute = require('./src/routes/writePostsInFile');
 const app = express();
 const cors = require('cors');
-
+const routes = require('./src/routes');
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -13,7 +13,7 @@ app.use(
 );
 
 // Use routes
-app.use('/posts', postsRoute);
+app.use('/', routes());
 
 // Set port, listen for requests
 const PORT = process.env.PORT || 8080;
