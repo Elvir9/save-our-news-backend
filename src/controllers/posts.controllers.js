@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const os = require('os');
 const desktopDir = path.join(os.homedir(), 'Desktop/savedChanges.json');
-const Posts = require('../models/posts');
 
 // Write post in file system
 module.exports.writeFile = async (req, res) => {
