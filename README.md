@@ -15,6 +15,6 @@ The response should look like similar to the following:
 ```
 {"version":"1.0.0"}
 ```
-**Credentials for user who need to log in into application you have to use:**
+**Credentials for user who need to log in into application you have to use:**\
 `username: admin`
 `password: admin`
