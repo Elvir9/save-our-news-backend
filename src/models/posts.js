@@ -1,9 +1,7 @@
 const Posts = () => {
-  const posts = {
-    author: String,
-    title: String,
-    content: String,
-    description: String,
+  const user = {
+    userName: String,
+    password: String,
   };
-  return posts;
+  return user;
 };
