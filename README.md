@@ -16,5 +16,7 @@ The response should look like similar to the following:
 {"version":"1.0.0"}
 ```
 **Credentials for user who need to log in into application you have to use:**\
-`username: admin`
+`username: admin`\
 `password: admin`
+
+**Path where your changes from application is saved in a file system is /Desktop and file should look like `savedChanges.json`**
