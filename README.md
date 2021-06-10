@@ -2,7 +2,7 @@
 
 ## Local deployment
 
-**Clone this repository with `git` command `https://github.com/Elvir9/save-our-news-backend.git` into terminal**
+**Clone this repository with `git` command `https://github.com/Elvir9/save-our-news-backend.git` into terminal**\
 **Navigate to this directory and run commands:**
 
 `npm install` to install requirements
