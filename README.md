@@ -19,4 +19,4 @@ The response should look like similar to the following:
 `username: admin`\
 `password: admin`
 
-**Path where your changes from application is saved in a file system is /Desktop and file should look like `savedChanges.json`**
+**Path where your changes from application is saved in a file system is `/Desktop` and file should look like `savedChanges.json`**
